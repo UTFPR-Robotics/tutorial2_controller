@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="tutorial2_controller" type="FuzzyServer" name="FuzzyServer" output="screen"/>
+  <node pkg="tutorial2_controller" type="FuzzyClient" name="FuzzyClient" output="screen"/>
+</launch>
